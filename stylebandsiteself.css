@@ -1,0 +1,289 @@
+html {
+	box-sizing: border-box;
+}
+*, *:before, *after {
+	box-sizing: inherit;
+}
+body {
+	padding: 0;
+	margin: 0;
+	font-family: verdana;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+h2, h3 {
+	font-weight : 400;
+}
+
+.w3-top {
+	position: fixed;
+	top: 0;
+	display: inline-block;
+	left: 0;
+	right: 0;
+}
+
+.w3-card {
+	width: 100%;
+
+}
+
+.w3-black {
+	background-color: black;
+}
+
+.w3-bar-item {
+	float: left;
+	color: white;
+	text-decoration: none;
+	padding: 14px 22px;
+
+}
+
+.w3-bar-item:hover {
+	background-color: lightgray;
+	color: black;
+}
+.w3-right {
+	float: none;
+	float: right!important;
+}
+.w3-hover-red:hover {
+	background-color: red;
+}
+
+.w3-button {
+	background-color: inherit;
+	color: white;
+	outline: none;
+	border: none;
+	font-size: inherit;
+	cursor: pointer;
+	vertical-align: middle;
+}
+
+
+
+.w3-image {
+	max-width: 100%;
+	height: auto;
+}
+
+img {
+	vertical-align: middle;
+}
+.w3-button:hover {
+	color: black;
+	background-color: lightgray;
+}
+.w3-padding-large {
+	padding: 14px 22px;
+}
+.w3-hide-large {
+	display: none;
+}
+
+.w3-dropdown-hover {
+	display: inline-block;
+	position: relative;
+}
+
+.w3-dropdown-hover .w3-button:active {
+	color: black;
+	background-color: lightgray;
+}
+
+.w3-dropdown-content {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	background-color: white;
+}
+
+.w3-dropdown-content .w3-bar-item {
+	color: black;
+	width: 100%;
+}
+
+.w3-dropdown-hover:hover .w3-dropdown-content {
+	display: block;
+}
+
+.w3-display-bottommiddle {
+	text-align: center;
+	bottom: 0;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+.w3-center {
+	margin: auto;
+	text-align: center;
+}
+
+.w3-text-white {
+	color: white;
+}
+
+.w3-input {
+	padding: 12px 20px;
+}
+.w3-padding-32 {
+	padding-top: 32px;
+	padding-bottom: 32px;
+}
+
+.w3-padding-64 {
+	padding-top: 64px;
+	padding-bottom: 64px;
+}
+
+.w3-justify {
+	text-align: justify;
+}
+
+.w3-wide {
+	letter-spacing: 4px;
+}
+
+.w3-opacity {
+	opacity: .5;
+}
+
+.w3-row:before, .w3-row:after {
+	clear: both;
+	content: "";
+	display: table;
+}
+
+.w3-third {
+	width: 33.33333%;
+	float: left;
+}
+
+.w3-round {
+	border-radius: 4px;
+}
+
+.w3-text-grey {
+	color: gray;
+}
+.w3-ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+.w3-white {
+	background-color: white;
+}
+.w3-modal {
+	display: none;
+}
+.w3-border {
+	border: 1px solid gray;
+}
+.w3-red {
+	background-color: red;
+}
+
+.w3-margin-left {
+	margin-left: 10px;
+}
+
+.w3-margin-right {
+	margin-right :10px;
+}
+
+.w3-padding {
+	padding: 10px;
+}
+
+.w3-tag, .w3-badge {
+	padding-left: 8px;
+	padding-right: 8px;
+	color: white;
+	text-align: center;
+	display: inline-block;
+}
+
+.w3-display-container {
+	position: relative;
+}
+
+.w3-content {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.w3-content {
+	max-width: 980px;
+}
+
+.w3-badge {
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background-color: black;
+	color: white;
+	border: 1px solid black;
+	vertical-align: middle;
+}
+
+.w3-ul li {
+	border-bottom: 1px solid lightgray;
+}
+
+.w3-ul li:last-child() {
+	border-bottom: none;
+}
+
+.w3-container {
+	padding:0.01em 16px;
+}
+
+#tour .w3-center {
+	color: white;
+}
+
+.w3-hover-opacity:hover {
+	opacity: .7;
+}
+
+.w3-margin-bottom {
+	margin-bottom: 40px;
+}
+
+.w3-row-padding {
+	padding: 20px;
+}
+
+#tour .w3-button {
+	background-color: black;
+	color: white;
+	padding: 8px;
+}
+.w3-half {
+	width: 49.9999%;
+	float: left;
+}
+
+.w3-section {
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
+.w3-col {
+	float: left;
+}
+
+.m6 {
+	width: 49.999%;
+}
